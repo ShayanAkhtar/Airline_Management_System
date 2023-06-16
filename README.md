@@ -23,7 +23,7 @@ To run the Airline Management System on your local machine, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/airline-management-system.git
+   git clone https://github.com/ShayanAkhtar/Airline_Management_System
    ```
 
 2. Compile the source code using a C++ compiler. For example:
