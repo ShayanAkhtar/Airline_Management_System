@@ -1,14 +1,53 @@
-# Airline_Management_System
-Flight Management System | OOPs | C++ 
+# Airline Management System
 
-The above program is an Airline Management System implemented in C++. It provides functionality for both administrators and users. The program uses classes to organize the code and implement the different features.
+This is an Airline Management System implemented in C++. It provides functionalities for both administrators and users, allowing them to manage flights, make bookings, and perform various operations related to airline management.
 
-The program begins with a main function that displays a menu with options to login as an administrator or a user, or to exit the program. 
+## Features
 
-If the administrator option is chosen, the user is prompted to enter their email address and password for authentication. If the credentials match the predefined values, the administrator is granted access to the admin menu. The admin menu provides options to add a flight, view existing flights, update flight details, or exit the program.
+- **Admin functionalities**:
+  - Add new flights to the system.
+  - View existing flights and their details.
+  - Update flight details such as departure time, arrival time, and ticket prices.
 
-If the user option is chosen, the user can either sign up or log in. The sign-up process collects user information such as name, age, email address, and PIN. This information is stored in a file. The login process validates the user's email address and PIN against the stored values. Upon successful login, the user is presented with a user menu. The user menu offers options to view the flight schedule, book a flight, view bookings, cancel bookings, or exit the program.
+- **User functionalities**:
+  - Sign up and create a new account.
+  - Login to an existing account.
+  - View available flight schedules.
+  - Book flights by selecting the desired flight and providing passenger details.
+  - View bookings and their details.
+  - Cancel bookings if needed.
 
-The program uses file handling to store flight and user data. The flight details are stored in a text file, and the user information is stored in a separate text file.
+## Getting Started
 
-Overall, the program provides basic functionality for an airline management system, allowing administrators to manage flights and users to book and manage their bookings. It demonstrates the use of classes, file handling, and menu-driven interfaces in C++.
+To run the Airline Management System on your local machine, follow these steps:
+
+1. Clone this repository to your local machine using the following command:
+   ```
+   git clone https://github.com/your-username/airline-management-system.git
+   ```
+
+2. Compile the source code using a C++ compiler. For example:
+   ```
+   g++ main.cpp admin.cpp user.cpp -o airline
+   ```
+
+3. Run the compiled executable:
+   ```
+   ./airline
+   ```
+
+4. Follow the on-screen instructions to navigate through the program and use its functionalities.
+
+## Contributing
+
+Contributions to the Airline Management System are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- This project was developed as a learning exercise and does not represent a full-fledged production-ready system.
+- The implementation may not cover all edge cases and scenarios.
+- This project was inspired by the need for a simple airline management system for educational purposes.
